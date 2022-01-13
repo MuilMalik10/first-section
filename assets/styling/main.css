@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+p {
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  text-align: center;
+  width: 70%;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+}
+
+.mt {
+  margin-top: 140px;
+}
+
+.mb {
+  margin-bottom: 80px;
+}
+
+i {
+  color: peru;
+}
+
+/* Spesific styling */
+
+.nav-btn {
+  background-color: peru;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-transform: uppercase;
+}
+
+h2.logo {
+  float: left;
+  font-weight: 700;
+  letter-spacing: 2px;
+  align-items: center;
+  line-height: 100px;
+}
+
+nav {
+  height: 100px;
+}
+
+nav ul {
+  float: right;
+  line-height: 100px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 25px;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  color: gray;
+}
+
+.active {
+  color: peru;
+}
+
+.jumbotron {
+  height: calc(100vh - 100px);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../img/bg-office.jfif');
+  background-repeat: none;
+  background-size: cover;
+  border-bottom: 2px solid peru;
+}
+
+.jumbotron-content {
+  width: 45%;
+  margin: auto;
+  text-align: center;
+  transform: translateY(25vh);
+  color: #fff;
+}
+
+.jumbotron-content h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.jumbotron-content p {
+  line-height: 2.2em;
+  margin: 20px 0;
+}
+
+.jumbotron-btn {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  border: 2px solid #fff;
+  color: #fff;
+  letter-spacing: 2px;
+  transition: 0.5s all;
+}
+
+.jumbotron-btn:hover {
+  background-color: peru;
+}
+
+.about-image {
+  float: left;
+  width: 45%;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.about-content {
+  float: right;
+  width: 45%;
+  text-align: left;
+}
+
+.about-content h3 {
+  margin-top: 60px;
+  text-transform: uppercase;
+}
+
+.line {
+  height: 4px;
+  width: 200px;
+  background-color: black;
+  margin-top: 50px;
+}
+
+.about-content p {
+  margin-top: 50px;
+}
+
+.about-content ul {
+  list-style: none;
+  margin-top: 30px;
+}
+
+.fa-li {
+  margin-top: 5px;
+  margin-left: -20px;
+}
+
+.social {
+  margin-top: 30px;
+}
+
+.social i {
+  padding: 10px;
+  border: 1px solid rgb(66, 62, 62);
+}
